@@ -1,0 +1,85 @@
+body {
+    background-color: #7FFFD4; /* More soothing shade of aquamarine */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.passgenerator {
+    width: 400px; /* Reduced width for a more compact look */
+    padding: 30px;
+    background-color: #A0E1CC;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center; /* Center-align text */
+    margin: 20px;
+}
+
+.passgenerator h2 {
+    color: #0717F7;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+    margin-bottom: 20px;
+}
+
+.passlength {
+    margin-bottom: 20px; /* Consistent spacing */
+}
+
+.passlength input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 0; /* Remove unnecessary padding */
+}
+
+.checkbox input {
+    margin-right: 10px; /* Space between checkbox and label */
+}
+
+.text {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.generate-btn, .Copy-btn {
+    padding: 10px 20px; /* Increased padding for better clickability */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.generate-btn {
+    background-color: #303CE1;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.generate-btn:hover {
+    background-color: #0000FF;
+}
+
+.Copy-btn {
+    background-color: #FEE904;
+    color: #0E0E0F;
+}
+
+.Copy-btn:hover {
+    background-color: #C3F206;
+}
