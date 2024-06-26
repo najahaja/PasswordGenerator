@@ -8,12 +8,12 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/username/password-generator.git
+    git clone git@github.com:najahaja/PasswordGenerator.git
     ```
 
 2. **Navigate to the project directory**:
     ```bash
-    cd password-generator
+    cd PasswordGenerator
     ```
 
 3. **Install the dependencies**:
